@@ -59,10 +59,9 @@ if !isDarkModeOn2 {
 
 //이런식으로도 표현 가능하다.
 var title: String = isDarkModeOn2 == true ? "다크모드 입니다." : "다크모드가 아닙니다."
-
-// ?는 해당하는 조건이면
+// ?는 해당하는 조건, :는 else와 같다.
+// == true를 지워도 상관없다.
 
 print("title: \(title)")
-
 
 
