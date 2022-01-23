@@ -5,7 +5,6 @@ import Cocoa
 
 
 var isDarkModeOn1: Bool = true
- // Bool은 true, false의 값을 갖는 데이터 타입이다.
  
 if (isDarkModeOn1 == true) {
     print("다크모드 입니다.")
@@ -57,4 +56,13 @@ if !isDarkModeOn2 {
 } else {
     print("다크모드 입니다.")
 }
+
+//이런식으로도 표현 가능하다.
+var title: String = isDarkModeOn2 == true ? "다크모드 입니다." : "다크모드가 아닙니다."
+
+// ?는 해당하는 조건이면
+
+print("title: \(title)")
+
+
 
