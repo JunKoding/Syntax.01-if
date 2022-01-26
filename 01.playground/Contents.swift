@@ -1,7 +1,7 @@
 import Cocoa
 
 // 스위프트 기초 문법 01 - 조건문
-// Swift에서 조건을 표현하는 방법
+// 스위프트에서 조건을 표현하는 방법
 
 
 var isDarkModeOn1: Bool = true
